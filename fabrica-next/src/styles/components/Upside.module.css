@@ -1,0 +1,38 @@
+.UpsideFisrt {
+    color: black;
+    background: blueviolet;
+    display: 1;
+    top: 0;
+    bottom: 0;
+    align-content: center;
+}
+
+.UpsideFisrt>section {
+    display: flex;
+    align-items: center;
+}
+
+.UpsideFisrt>section>div img {
+    /* border-radius: 50%; */
+    width: 10rem;
+    height: 4rem;
+    /* margin-right: 8rem; */
+}
+
+.UpsideFisrt>section>div {
+    background: chartreuse;
+    padding: 0 3rem 0 3rem;
+}
+
+.UpsideFisrt>section>strong {
+    background: chartreuse;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* padding: 1rem 1rem; */
+    font-size: 15px;
+}
+
+.UpsideFisrt>section>strong>a {
+    text-decoration: none;
+}
