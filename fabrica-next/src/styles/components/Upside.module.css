@@ -1,6 +1,7 @@
 .UpsideFisrt {
     color: black;
-    background: blueviolet;
+    /* cor da parte de cima */
+    background: var(--text);
     display: 1;
     top: 0;
     bottom: 0;
@@ -20,12 +21,14 @@
 }
 
 .UpsideFisrt>section>div {
-    background: chartreuse;
+    /* demarcação de divs */
+    /* background: chartreuse; */
     padding: 0 3rem 0 3rem;
 }
 
 .UpsideFisrt>section>strong {
-    background: chartreuse;
+    /* demarcação de divs */
+    /* background: chartreuse; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;

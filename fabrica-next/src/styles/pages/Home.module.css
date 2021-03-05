@@ -5,11 +5,19 @@
     /* padding: 2.5rem 2rem; */
     display: flex;
     flex-direction: column;
-    background: brown;
+    /* cor da pagina em geral */
+    background: var(--white);
 }
 
 .container>section {
     display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+}
+.esquerda{
+    width: 300px;
+    height: 300px!important;
+    background-color: darkseagreen;
 }
 
 

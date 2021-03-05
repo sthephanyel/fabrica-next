@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "jsx": "^0.9.89",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
@@ -16,6 +18,6 @@
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.3"
   }
 }
