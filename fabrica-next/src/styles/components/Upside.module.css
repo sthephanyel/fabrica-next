@@ -1,5 +1,5 @@
 .UpsideFisrt {
-    color: black;
+    /* color: black; */
     /* cor da parte de cima */
     background: var(--text);
     display: 1;
@@ -23,19 +23,28 @@
 .UpsideFisrt>section>div {
     /* demarcação de divs */
     /* background: chartreuse; */
-    padding: 0 3rem 0 3rem;
+    padding: 0 3rem 0 5rem;
 }
 
 .UpsideFisrt>section>strong {
     /* demarcação de divs */
     /* background: chartreuse; */
+    /* padding: 1rem 1rem; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* padding: 1rem 1rem; */
     font-size: 15px;
 }
 
 .UpsideFisrt>section>strong>a {
     text-decoration: none;
+    color: black;
+}
+
+@media(max-width:720px) {
+    .UpsideFisrt>section>div {
+        /* demarcação de divs */
+        /* background: chartreuse; */
+        padding: 0 0rem 0 0rem;
+    }
 }

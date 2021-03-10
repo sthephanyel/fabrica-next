@@ -3,21 +3,20 @@ import styles from '../styles/components/LeftPart.module.css';
 export function LeftPart(){
     return(
         <div className={styles.leftPartFirst}>
-            <p>teste</p>
-            <nav className="navbar navbar-light bg-light">
-                <div className="container-fluid">
-                    <a className="navbar-brand">Navbar</a>
-                    <form className="d-flex">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+            <section>
+                <div className={styles.StylesStrong}>
+                    <strong >Produtos</strong>
                 </div>
-            </nav>
-            <div className="card" >
-                <button className="btn btn-secondary">Enviar</button>
-                    teste
-
-            </div>
+                <div>
+                    <ul className={styles.StylesUl}>
+                        <div><li>Mobilidade</li></div>
+                        <div><li>Delivery</li></div>
+                        <div><li>ZappPedis</li></div>
+                        
+                    </ul>
+                    <div className={styles.clear}></div>
+                </div>
+            </section>
         </div>
         
     );

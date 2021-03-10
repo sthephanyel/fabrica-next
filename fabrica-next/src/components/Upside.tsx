@@ -7,6 +7,9 @@ export function Upside(){
                 <div>
                     <img src="fabrica704.jpg" alt="fabrica"/>
                 </div>
+                <div>
+                    
+                </div>
                 <strong><a href="#">O que é ?</a></strong>
                 <strong>Como Funciona</strong>
                 <strong>Conheça</strong>
