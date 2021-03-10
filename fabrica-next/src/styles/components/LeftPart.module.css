@@ -1,4 +1,32 @@
 .leftPartFirst {
     background: blueviolet;
     color: black;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.StylesStrong {
+    text-align: center;
+}
+
+.leftPartFirst>section>div>ul>div>li {
+    background: cadetblue;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+
+.leftPartFirst>section>div>ul {
+    list-style-type: none;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftPartFirst>section>div {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
 }

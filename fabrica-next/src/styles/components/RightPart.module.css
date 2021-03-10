@@ -1,5 +1,16 @@
 .RightPartFisrt {
     background: blue;
-    color: black;
+    color: #000000;
     margin: 0 auto;
+    /* height: 36.5em; */
+    height: 87vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:720px) {
+    .RightPartFisrt {
+        height: 88vh;
+    }
 }
