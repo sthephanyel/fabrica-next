@@ -8,8 +8,9 @@ import Link from 'next/link';
 
 
 export default function teste(){
-    return(
-        <div className={styles.container}>
+  return (
+    <div className={styles.container}>
+      
       <Head>
         <title>Fabrica 704</title>
         
@@ -19,24 +20,22 @@ export default function teste(){
       <Upside></Upside>
     </div>
 
-    <div /*className="container-fluid"*/className={styles.containerBaixo} style={{background:'green'}}>
+    <div /*className="container-fluid"*/className={styles.containerBaixo} style={{background:'red'}}>
     {/* Parte do lado esquerdo e direito */}
       <section className={styles.alinhando} >
           <div className="col-3">
-            <div>
+            <div className="container">
               <LeftPart></LeftPart>  
             </div>
-            <div>
+            <div className="container">
               <LeftPart2></LeftPart2>
             </div>
           </div>
 
-          <div className="container-fluid">
+          <div className="container" style={{marginTop:'10px'}}>
             <RightPart></RightPart>
           </div>
       </section>
-    </div>
-    <div>
     </div>
 
       {/* <ExperienceBar/>
@@ -46,5 +45,5 @@ export default function teste(){
         </div>
       </section> */}
     </div>
-    );
+  )
 }

@@ -1,43 +1,25 @@
 .container {
-    height: 100%;
-    max-width: 1380px;
     margin: 0 auto;
     /* padding: 2.5rem 2rem; */
     display: flex;
     flex-direction: column;
-    /* cor da pagina em geral */
-    background: var(--white);
-    background-size: cover;
+    height: 100vh;
+    background: cornflowerblue
 }
 
-.container>section {
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-}
-
-.esquerda {
-    width: 300px;
-    height: 300px!important;
-    background-color: darkseagreen;
-}
-
-.containerBaixo {
-    width: 100%;
-    height: 90.3vh;
-    padding-right: 0r;
-    padding-left: 0;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
-}
+.container>div>section {}
 
 .alinhando {
     display: flex;
 }
 
-@media(max-width:720px) {
+@media(max-width:600px) {
     .containerBaixo {
         height: 91.6vh;
+    }
+    .alinhando {
+        display: contents;
+        width: 100%;
     }
 }
 

@@ -21,10 +21,10 @@ export default function Home() {
       <Upside></Upside>
     </div>
 
-    <div /*className="container-fluid"*/className={styles.containerBaixo} style={{background:'red'}}>
+    <div className="container-fluid" style={{background:'red'}}>
     {/* Parte do lado esquerdo e direito */}
       <section className={styles.alinhando} >
-          <div className="col-3">
+          <div>
             <div className="container">
               <LeftPart></LeftPart>  
             </div>
@@ -34,10 +34,11 @@ export default function Home() {
           </div>
 
           <div className="container" style={{marginTop:'10px'}}>
-            <RightPart></RightPart>
+            <RightPart></RightPart>      
           </div>
       </section>
     </div>
+  
 
 
       {/* <ExperienceBar/>
