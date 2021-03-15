@@ -1,5 +1,6 @@
 import '../styles/global.css'
 import 'bootstrap/dist/css/bootstrap.css';
+
 import NProgress from 'nprogress';
 import Link from 'next/link';
 import Router from 'next/router';

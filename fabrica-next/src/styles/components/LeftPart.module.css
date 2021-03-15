@@ -1,32 +1,82 @@
-.leftPartFirst {
-    background: blueviolet;
-    color: black;
-    height: 100%;
-    margin-top: 10px;
-}
-
-.StylesStrong {
-    text-align: center;
-}
-
-.leftPartFirst>section>div>ul>div>li {
-    background: cadetblue;
-    padding: 0;
-    text-align: center;
-    float: left;
-}
-
-.leftPartFirst>section>div>ul {
-    list-style-type: none;
-    list-style: none;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.leftPartFirst>section>div {
-    text-align: center;
-}
-
-.clear {
-    clear: both;
-}
+        .leftPartFirst {
+            background: blueviolet;
+            color: black;
+            margin-top: 10px;
+        }
+        
+        .StylesStrong {
+            font-size: 17px;
+        }
+        
+        .StylesUl {
+            background: rgb(85, 249, 255);
+            list-style-type: none;
+            list-style: none;
+            padding-inline-end: 60px;
+            font-size: 17px;
+        }
+        
+        #divlista {
+            display: flex;
+            justify-content: center;
+        }
+        
+        @media (min-width:600px) {
+            #divlista {
+                display: none;
+            }
+        }
+        
+        @media (max-width:600px) {
+            #containerNavMenu {
+                display: none;
+            }
+        }
+        
+        @media (max-width:600px) {
+            #tamanhoBotao {
+                margin-top: -8px;
+                padding-left: 17rem;
+                padding-right: 17rem;
+                transition: 1s;
+                /* cor do botão */
+                background-color: rgb(0, 0, 0);
+            }
+            #localizacaoDaLista {
+                padding-left: 16rem;
+                padding-right: 16rem;
+                text-align: center;
+            }
+            .leftPartFirst {
+                background: none;
+            }
+        }
+        
+        @media (max-width:500px) {
+            #tamanhoBotao {
+                margin-top: -8px;
+                padding-left: 13.6rem;
+                padding-right: 13.6rem;
+                transition: 1s;
+            }
+            #localizacaoDaLista {
+                padding-left: 12.5rem;
+                padding-right: 12.5rem;
+                text-align: center;
+            }
+        }
+        
+        @media(max-width:380px) {
+            #tamanhoBotao {
+                display: block;
+                margin-top: -8px;
+                padding-left: 8.1rem;
+                padding-right: 8.1rem;
+                transition: 1s;
+            }
+            #localizacaoDaLista {
+                padding-left: 7rem;
+                padding-right: 7rem;
+                text-align: center;
+            }
+        }

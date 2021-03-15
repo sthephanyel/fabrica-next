@@ -4,8 +4,8 @@ export function Upside(){
     return(
         <div className={styles.UpsideFisrt}>
             <section>
-                <div>
-                    <img src="fabrica704.jpg" alt="fabrica"/>
+                <div className={styles.distanciamentoDiv}>
+                    <img className={styles.mobileTamanho} src="fabrica704.jpg" alt="fabrica"/>
                 </div>
                 <div>
                     

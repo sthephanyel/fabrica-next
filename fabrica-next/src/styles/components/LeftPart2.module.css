@@ -1,6 +1,7 @@
 .leftPartFirst2 {
     background: green;
     color: black;
+    margin-top: 10px;
 }
 
 .StylesUl {
@@ -9,4 +10,69 @@
 
 .StylesStrong {
     text-align: center;
+    font-size: 15px;
+}
+
+#divlista {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:600px) {
+    #divlista {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    #containerNavMenu {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    #tamanhoBotao {
+        margin-top: -8px;
+        padding-left: 15.4rem;
+        padding-right: 15.4rem;
+        /* cor do botão */
+        background-color: rgb(0, 0, 0);
+        transition: 1s;
+    }
+    #localizacaoDaLista {
+        padding-left: 14rem;
+        padding-right: 14rem;
+        text-align: center;
+    }
+    .leftPartFirst2 {
+        background: none;
+    }
+}
+
+@media (max-width:500px) {
+    #tamanhoBotao {
+        margin-top: -8px;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        transition: 1s;
+    }
+    #localizacaoDaLista {
+        padding-left: 10.5rem;
+        padding-right: 10.5rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:380px) {
+    #tamanhoBotao {
+        margin-top: -8px;
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+        transition: 1s;
+    }
+    #localizacaoDaLista {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: center;
+    }
 }

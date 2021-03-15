@@ -1,10 +1,11 @@
 import styles from '../styles/components/LeftPart2.module.css';
+import Link from 'next/link';
 
 export function LeftPart2(){
     return(
         <div className={styles.leftPartFirst2}>
 
-            <section>
+            <section id={styles.containerNavMenu}>
                 <div className={styles.StylesStrong}>
                     <strong>Implementações</strong>
                 </div>
@@ -22,23 +23,23 @@ export function LeftPart2(){
                 </div>
             </section>
 
+            <div className="dropdown" id={styles.divlista}>
+                <button className="btn btn-secondary dropdown-toggle" id= {styles.tamanhoBotao} type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                   Implementações
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1" id={styles.localizacaoDaLista}>
+                    <Link href="https://www.youtube.com/">
+                        <li><a className="dropdown-item" href="#">Action</a></li>
+                    </Link>
+                    <Link href="">
+                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                    </Link>
+                    <Link href="">
+                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    </Link>
+                </ul>
+            </div>
 
-
-
-
-
-
-
-
-            
-            {/* <select class="form-select" size="10" style={{overflow:'auto'}} aria-label="size 3 select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="3">Three</option>
-                <option value='4'>teste</option>
-            </select> */}
         </div>
     );
 }
